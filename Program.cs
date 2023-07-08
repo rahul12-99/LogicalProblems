@@ -11,6 +11,12 @@
             BasicProblem.EleOperations(20, 30);
             Console.WriteLine(BasicProblem.isTheResultSame(2 * 2, 2 + 2));
             BasicProblem.SwapTwoNumbers(10, 15);
+            // This all program is for selection problem.
+            SelectionProblem.absoluteValue(-345);
+            SelectionProblem.ifAscendingOrder(new int[] { 4, 6, 8, 10 });
+            SelectionProblem.divisibleBy2Or3(12, 18);
+            Console.WriteLine(SelectionProblem.ifNumberIsEven(30));
+            Console.WriteLine(SelectionProblem.ifGreaterThanThirdOne(new int[] { 4, 6, 8, 9 }));
         }
     }
 }
