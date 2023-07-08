@@ -17,6 +17,21 @@
             SelectionProblem.divisibleBy2Or3(12, 18);
             Console.WriteLine(SelectionProblem.ifNumberIsEven(30));
             Console.WriteLine(SelectionProblem.ifGreaterThanThirdOne(new int[] { 4, 6, 8, 9 }));
+            // This all program is for loops problem
+
+            // This program is for print multiplication table
+            LoopsProblem.PrintMultiplicationTable();
+            // This program is for return the sum of 1 + (½)² + (⅓)² + ... + (1⁄n)².
+            LoopsProblem.fractionSum(6);
+            // This program is for return the prime number in a range
+            Console.WriteLine("Enter a range greater than 2: ");
+            int range = int.Parse(Console.ReadLine());
+            LoopsProblem.PrintPrimes(range);
+            Console.WriteLine();
+            // This program is for draw parallelogram
+            LoopsProblem.drawParallelogram();
+            // This program is for return full sequence of letters
+            Console.WriteLine(LoopsProblem.fullSequenceOfLetters("Ps"));
         }
     }
 }
